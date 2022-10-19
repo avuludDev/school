@@ -1,0 +1,55 @@
+body,p{
+    margin: 0;
+}
+
+a{
+    color: rgb(21, 24, 105);
+    text-decoration: none;
+}
+
+header{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    
+}
+.logo{
+    margin-left: 20px;   
+}
+
+.logo img{
+    width: 130px;
+    background: rgb(255,255,255);
+
+    border-radius: 70px;
+    padding: 5px;
+}
+
+header h2{
+    color: rgb(21, 24, 105);
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 200px ;
+    text-align: right;
+    margin-right: 20px;
+    color: rgb(21, 24, 105);
+    font-weight: bold;
+}
+/* NAVIGATION */
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li ul{
+    display: none;
+}
