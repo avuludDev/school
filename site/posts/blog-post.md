@@ -1,4 +1,6 @@
 ---
-pageTitle: This is my Title
+pageTitle: Новина 1
+pageDesc: Опис Новини
+imgUrl: "logo.svg"
 ---
-<p> This is my first paragraph</p>
+<p>Тут новина</p>

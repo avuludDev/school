@@ -1,4 +1,6 @@
 ---
-pageTitle: This is my other Title
+pageTitle: Новина 2
+pageDesc: Опис Новини 
+imgUrl: "logo.svg"
 ---
-This is another paragraph of text.
+<p>Тут новина</p>
