@@ -1,0 +1,113 @@
+body,p{
+    margin: 0;
+}
+
+a{
+    color: rgb(21, 24, 105);
+    text-decoration: none;
+}
+
+header{
+    padding: 50px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo img{
+    width: 200px;
+}
+
+header h2{
+    color: rgb(21, 24, 105);
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 20px;   
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 200px ;
+    text-align: right;
+    margin-right: 20px;
+    color: rgb(21, 24, 105);
+    font-weight: bold;
+}
+/* NAVIGATION */
+nav{
+    padding: 20px 0 10px 0;
+}
+
+nav ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+nav ul li ul{
+    display: none;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:rgb(21, 24, 105) solid 2px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+nav ul li:hover{
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(21, 24, 105);
+    transition: all;
+    transition-duration: 200ms;
+}
+
+nav ul li:hover a{
+    color: white;
+}
+
+nav ul li:hover ul a{
+    color: rgb(21, 24, 105);
+}
+
+nav ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+
+nav ul li:hover ul li{
+    background-color: white;
+    margin: 5px;
+}
+
+nav ul li:hover ul li:hover {
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(21, 24, 105);
+    transition: all;
+    transition-duration: 200ms;
+    border: white solid 2px;
+}
+
+nav ul li:hover ul li:hover a{
+    color: white;
+}
