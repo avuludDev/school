@@ -1,5 +1,22 @@
+@font-face {
+    font-family: Evolventa;
+    src: url(/fonts/Evolventa-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Evolventa;
+    src: url(/fonts/Evolventa-Bold.ttf);
+    font-weight: bold;
+}
+
 body,p{
     margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: Evolventa;
 }
 
 a{
@@ -286,4 +303,61 @@ footer{
     background: linear-gradient(90deg,rgba(17,70,22,1) 0%, rgba(21,24,105,1) 100%);
     color: white;
     font-size: 12px;
+}
+
+
+@media screen and (max-width: 750px) {
+    header{
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+    }
+    header h2{
+
+        font-size: 20px;
+    }   
+    header .logo img{
+        width: 100px;
+    }
+    header .logo{
+        right: 10px;
+        top: 110px;
+    }
+
+    header h3{
+        font-size: 18px;
+        text-align: left;
+        margin: 0 0 10px 20px;
+    }
+
+    nav ul{
+        display: none;
+    }
+    nav .after{
+        content: " ";
+        width: 20px;
+        height: 20px;
+        border: solid white ;
+        border-width: 0 4px 4px 0 ;
+        top: -6px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+        transition: all;
+        transition-duration: 300ms;
+    }
+
+    .swiper .swiper-slide{
+        height: 300px;
+    }
+
+    .swiper .swiper-slide img{
+        height: 300px;
+    }
+
+    .contacts-form{
+        text-align: center;
+     
+    }
+
 }
