@@ -26,7 +26,9 @@ const swiper = new Swiper('.swiper', {
   });
 
   const nav = document.getElementsByTagName("nav")[0];
+
+  if(window.screen.width < 750){
   nav.addEventListener("click",()=>{
     document.querySelector("nav ul").style.display = (document.querySelector("nav ul").style.display == 'none') ? "block" : "none";
     document.querySelector("nav .after").style.transform = (document.querySelector("nav ul").style.display == 'none') ? "translateX(-50%) rotate(45deg)" : "translateX(-50%) translateY(10px) rotate(225deg)"; 
-  })
+  })}

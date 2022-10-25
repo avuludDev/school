@@ -108,7 +108,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-    padding: 10px 30px;
+    
     border-radius: 10px;
     color: white;
     background-color: rgb(21, 24, 105);
@@ -137,7 +137,6 @@ nav ul li:hover ul li{
 }
 
 nav ul li:hover ul li:hover {
-    padding: 10px 30px;
     border-radius: 10px;
     color: white;
     background-color: rgb(21, 24, 105);
@@ -305,6 +304,63 @@ footer{
     font-size: 12px;
 }
 
+/*USTANOVCHI*/
+
+.sum-container{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    gap: 60px;
+    text-align: center;
+}
+
+.sum-item{
+    padding: 10px;
+    border-radius: 10px;  
+    background: rgb(21,24,105);
+    background: linear-gradient(90deg,rgba(17,70,22,1) -40%, rgba(21,24,105,1) 100%);   
+}
+
+.sum-item p{
+    font-size: 14px;
+    color: white
+}
+
+.sum-item span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #e3be0c;
+}
+
+.content-container{
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.links-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.content-container p{
+    text-align: left;
+
+}
+
+.content-container a{
+    font-size: large;
+    font-weight: bold;
+    text-decoration:underline 2px rgba(17,70,22,1);
+}
+
+.content-container img{
+    
+    margin: 20px auto ;
+}
+
+
 
 @media screen and (max-width: 750px) {
     header{
@@ -361,3 +417,4 @@ footer{
     }
 
 }
+
