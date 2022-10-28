@@ -13,6 +13,7 @@
     "@11ty/eleventy": "^1.0.2"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "swiper": "^8.4.4"
   }
 }

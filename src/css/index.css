@@ -337,6 +337,7 @@ footer{
     max-width: 1500px;
     margin: 0 auto;
     padding: 20px;
+    color: rgb(21, 24, 105);
 }
 
 .links-list{
@@ -360,6 +361,12 @@ footer{
     margin: 20px auto ;
 }
 
+/*PSYCHOLOG*/
+
+.content-item .swiper-slide img{
+    max-width: 100%;
+    max-height: 440px;
+}
 
 
 @media screen and (max-width: 750px) {

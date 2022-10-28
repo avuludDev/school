@@ -1,3 +1,5 @@
+
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -24,8 +26,58 @@ const swiper = new Swiper('.swiper', {
     // And if we need scrollbar
    
   });
+const psycholog_1 = new Swiper('.psycholog_1', {
+    // Optional parameters
+    direction: 'horizontal',
+    autoheight: true,
+    loop: true,
+    spaceBetween: 30,
+        centeredSlides: true,
+    slidesPerView: 1,
+    // If we need pagination
+   
+    breakpoints: {
+      750: {
+        slidesPerView: 3,
+      }
+    }
+})
+const psycholog_2 = new Swiper('.psycholog_2', {
+  // Optional parameters
+  direction: 'horizontal',
+  autoheight: true,
+  loop: true,
+  spaceBetween: 30,
+      centeredSlides: true,
+  slidesPerView: 1,
+  // If we need pagination
+ 
+  breakpoints: {
+    750: {
+      slidesPerView: 3,
+    }
+  }
+})
+const psycholog_3 = new Swiper('.psycholog_3', {
+  // Optional parameters
+  direction: 'horizontal',
+  autoheight: true,
+  loop: true,
+  spaceBetween: 30,
+      centeredSlides: true,
+  slidesPerView: 1,
+  // If we need pagination
+ 
+  breakpoints: {
+    750: {
+      slidesPerView: 3,
+    }
+  }
+})
+
 
   const nav = document.getElementsByTagName("nav")[0];
+
 
   if(window.screen.width < 750){
   nav.addEventListener("click",()=>{
